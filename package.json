@@ -1,0 +1,29 @@
+{
+  "name": "npm-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandeep151-lang/npm_library.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Sandeep Nandanwar <sandeepnandanwar92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sandeep151-lang/npm_library/issues"
+  },
+  "homepage": "https://github.com/Sandeep151-lang/npm_library#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
